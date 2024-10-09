@@ -8,8 +8,8 @@ const Header = () => {
   const [visible, setVisible] = useState(false);
 
   return (
-    <section className="container mx-auto mt-5 px-3 sm:px-0">
-      <nav className="flex items-center justify-between bg-bg-primary px-5  py-5 sm:py-3 rounded-3xl">
+    <section className="container mx-auto pt-5 px-3 sm:px-10">
+      <nav className="container mx-auto flex items-center justify-between bg-bg-primary px-5  py-5 sm:py-3 rounded-3xl">
         <h1 className="text-purple-dozewell font-bold sm:text-md text-xl">
           DozeWell
         </h1>
@@ -42,7 +42,7 @@ const Header = () => {
             onClick={() => setVisible(false)}
             className="flex items-center gap-4 p-3 cursor-pointer"
           >
-            <img src={CloseIcon} className="w-3" alt="" />
+            <img src={CloseIcon} className="w-5" alt="" />
           </div>
           <NavLink
             onClick={() => setVisible(false)}
