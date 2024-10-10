@@ -1,4 +1,4 @@
-import { EmblaCarousel } from "./Carousel";
+
 
 
 const Hero = () => {
@@ -14,7 +14,7 @@ const Hero = () => {
           </p>
         </div>
         <div>
-        <EmblaCarousel />
+        {/* <EmblaCarousel /> */}
         </div>
       </div>
     </section>
