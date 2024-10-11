@@ -1,4 +1,5 @@
-import CommentSlider from "./CommentSlider";
+import CommentSlider from "./commentSlider";
+
 
 
 const Comments = () => {
