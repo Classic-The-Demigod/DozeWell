@@ -10,12 +10,12 @@ const Auth = () => {
     return (
         <>
             <section className="flex flex-col items-center justify-start bg-bg-primary h-fit">
-                <header className="text-dozwell-green w-full text-left px-11 py-4 text-3xl font-bold">DozeWell</header>
+                <header className="text-dozwell-green w-full text-left px-5 py-5 md:px-11 md:py-4 text-3xl font-bold">DozeWell</header>
                 <div className="flex items-center justify-between w-full px-[5vw] py-10 gap-4">
                     {/* First Side Of Auth Hero */}
-                    <aside className="flex flex-col items-center justify-start w-1/2">
-                        <h1 className="text-white font-bold text-5xl capitalize">Join For Better Sleep</h1>
-                        <p className="text-gray-light-dozewell font-extralight font-Satoshi text-2xl py-9 px-5 w-full text-center">Are you ready to take the next step to enhance a better
+                    <aside className="flex w-full flex-col items-center justify-start md:w-1/2">
+                        <h1 className="text-white font-bold text-3xl md:text-5xl capitalize">Join For Better Sleep</h1>
+                        <p className="text-gray-light-dozewell font-extralight font-Satoshi md:text-2xl text-lg py-9 md:px-5 w-full text-center">Are you ready to take the next step to enhance a better
                             sleep experience? Look no further than
                             <span className="text-dozwell-green font-bold"> DozeWell!</span>
                         </p>
@@ -67,7 +67,7 @@ const Auth = () => {
                     </aside>
 
                     {/* Second Side Of Auth Hero */}
-                    <main className="w-1/2 flex items-center justify-center">
+                    <main className="w-1/2 hidden items-center justify-center md:flex">
                         <img src={sleepImage} alt="sleeping boy" className="h-[550px] w-[550px]" />
                     </main>
                 </div>
@@ -111,8 +111,8 @@ const Auth = () => {
                         </div>
                     </div>
                 </section>
-                {/* SIGN UP CTAs */}
-                <div className="w-full flex px-[10vw] py-6 items-center justify-center gap-7">
+                {/* BOTTOM SIGN UP CTAs */}
+                <div className="w-full block px-[20px] md:flex md:px-[10vw] py-6 items-center justify-center gap-7">
                     <button className="w-full h-[55px] rounded-lg bg-purple-dozewell text-gray-light-dozewell flex items-center justify-center gap-5 mt-5 text-lg capitalize
                 ">
                         <img src={appleProviderImg} className="w-[24px] h-[23px]" alt="provider pics" />
