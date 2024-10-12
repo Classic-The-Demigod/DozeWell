@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 import MenuIcon from "../assets/menu_icon.png";
 import CloseIcon from "../assets/cross_icon.png";
@@ -21,7 +21,7 @@ const Header = () => {
         </ul>
 
         <div className="hidden sm:flex items-center gap-3">
-          <NavLink className="text-white">Login</NavLink>
+          <Link to='/userAuth' className="text-white">Login</Link>
           <button className="text-purple-dozewell border border-purple-dozewell px-8 rounded-3xl py-2">
             Try for free
           </button>

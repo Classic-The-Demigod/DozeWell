@@ -8,6 +8,7 @@ export default {
       "purple-dark-dozewell": "#302D40",
       "gray-light-dozewell": "#D9D9D9",
       "gray-dark-dozewell": "#424242",
+      "dozwell-green": "rgba(43, 217, 168, 1)",
       white: "#ffffff",
       black: "#000000",
     },
