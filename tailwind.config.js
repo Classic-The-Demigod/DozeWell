@@ -19,6 +19,7 @@ export default {
     extend: {
       backgroundImage: {
         "dozewell-gradient": "linear-gradient(to bottom, #7774A7, #302D40)",
+        'hero-pattern': "url('/src/assets/100vh-Bg.png')",
       },
     },
   },
