@@ -1,22 +1,30 @@
-@import url('https://fonts.cdnfonts.com/css/satoshi');
+@import url("https://fonts.cdnfonts.com/css/satoshi");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 .bg-hero {
-    background-image: url('assets/bg-hero.png');
-    background-size: cover;
-    background-position: center;
+  background-image: url("assets/bg-hero.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.sound-player-bg {
+  background-image: url("assets/bg-dashboard.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .video-container {
-     background-image: url('assets/video-bg.png');
-    background-size: cover;
-    background-position: center;
-    width: 700px;
-    height: 500px;
- 
+  background-image: url("assets/video-bg.png");
+  background-size: contain;
+  background-position: center;
+  width: 700px;
+  height: 500px;
 }
 
-
-
+.nav-dot.active {
+  background-color: #391E8A;
+}

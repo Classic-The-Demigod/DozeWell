@@ -9,7 +9,7 @@ const Slider = ({ slides }) => {
         {slides.map((slide, i) => (
           <div
             key={i}
-            className="bg-purple-dark-dozewell text-white flex flex-col gap-8 items-start px-4 py-4 mr-4"
+            className="bg-purple-dark-dozewell text-white flex flex-col gap-8 items-start px-4 py-4 mr-4 h-full"
           >
             <h1 className="font-bold">{slide.title}</h1>
             <p>{slide.body}</p>

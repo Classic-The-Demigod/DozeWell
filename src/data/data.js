@@ -5,6 +5,23 @@ import image1 from "../assets/amico.png";
 import image2 from "../assets/bro.png";
 import image3 from "../assets/sleep.png";
 
+import Birds from "../assets/Birds.svg"
+import Rain from "../assets/Rain.svg"
+import Wind from "../assets/Wind.svg"
+import Synthwave from "../assets/SynthWave.svg"
+import Ocean from "../assets/Ocean.svg"
+import AutumnForest from "../assets/Autumn-forest.svg"
+import WaterDripping from "../assets/Water-dripping.svg"
+import Orchestral from "../assets/Orchestral.svg"
+import WaterFall from "../assets/Water-fall.svg"
+import Thunder from "../assets/Thunder.svg"
+import Campfire from "../assets/Camp-fire.svg"
+import LakeShore from "../assets/Lake-shore.svg"
+import DeepBass from "../assets/Deep-Bass.svg"
+import WhiteNoise from "../assets/White-Noise.svg"
+import BrainScanner from "../assets/Brain-Scanner.svg"
+
+
 export const responsive = {
   superLargeDesktop: {
     // the naming can be any, depends on you.
@@ -18,6 +35,25 @@ export const responsive = {
   tablet: {
     breakpoint: { max: 1024, min: 464 },
     items: 2,
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1,
+  },
+};
+export const responsive2 = {
+  superLargeDesktop: {
+    // the naming can be any, depends on you.
+    breakpoint: { max: 4000, min: 3000 },
+    items: 1,
+  },
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 1,
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 1,
   },
   mobile: {
     breakpoint: { max: 464, min: 0 },
@@ -144,3 +180,103 @@ export const FAQs = [
   { text: "Can i make payments on installments?" },
   { text: "How do we make payments?" },
 ];
+
+export const soundList = [
+  {
+    id: 1,
+    name: "Birds",
+    image: Birds,
+    category: "birds"
+  },
+  {
+    id: 2,
+    name: "Rain",
+    image: Rain,
+    category: "rain"
+  },
+  {
+    id: 3,
+    name: "Wind",
+    image: Wind,
+    category: "wain"
+  },
+  
+  {
+    id: 4,
+    name: "Synthwave",
+    image: Synthwave,
+    category: "synthwave"
+  },
+  {
+    id: 5,
+    name: "Ocean",
+    image: Ocean,
+    category: "ocean"
+  },
+ 
+  {
+    id: 6,
+    name: "Autumn Forest",
+    image: AutumnForest,
+    category: "autumn forest"
+  },
+ 
+  {
+    id: 7,
+    name: "Water Dripping",
+    image: WaterDripping,
+    category: "water dripping"
+  },
+  {
+    id: 8,
+    name: "Orchestral",
+    image: Orchestral,
+    category: "orchestral"
+  },
+  {
+    id: 9,
+    name: "Water Fall",
+    image: WaterFall,
+    category: "waterfall"
+  },
+ 
+  {
+    id: 10,
+    name: "Thunder",
+    image: Thunder,
+    category: "thunder"
+  },
+  {
+    id: 11,
+    name: "Camp Fire",
+    image: Campfire,
+    category: "camp fire"
+  },
+ 
+  {
+    id: 12,
+    name: "Lake Shore",
+    image: LakeShore,
+    category: "lake shore"
+  },
+  {
+    id: 13,
+    name: "Deep Bass",
+    image: DeepBass,
+    category: "deep bass"
+  },
+  {
+    id: 14,
+    name: "White Noise",
+    image: WhiteNoise,
+    category: "white noise"
+  },
+  {
+    id: 15,
+    name: "Brain Scanner",
+    image: BrainScanner,
+    category: "brain scanner"
+  },
+ 
+
+]

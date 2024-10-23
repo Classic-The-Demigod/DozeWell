@@ -15,6 +15,7 @@ const Comments = () => {
           for yourself.
         </p>
       </div>
+      
     <CommentSlider />
     </section>
   );

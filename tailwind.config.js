@@ -4,6 +4,7 @@ export default {
   theme: {
     colors: {
       "bg-primary": "#0D0D0D",
+      "purple-dozewell-accent": "#391E8A",
       "purple-dozewell": "#7774A7",
       "purple-dark-dozewell": "#302D40",
       "gray-light-dozewell": "#D9D9D9",
@@ -12,7 +13,7 @@ export default {
       black: "#000000",
     },
 
-    fontFamily: {
+    fontFamily: { 
       primary: ["Satoshi", "sans-serif"],
     },
     extend: {

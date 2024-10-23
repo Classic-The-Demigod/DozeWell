@@ -12,11 +12,11 @@ import Footer from "../components/Footer";
 const Home = () => {
   return (
     <div className="font-primary">
-      <div className="bg-hero bg-cover bg-center h-screen bg-bg-primary bg-opacity-80">
+      <div className=" bg-bg-primary bg-opacity-80">
         <Header />
         <Hero />
-        <DisocverySection />
         <div className="bg-[#0A1334]">
+        <DisocverySection />
           <Comments />
           <Features />
           <Subscription />
