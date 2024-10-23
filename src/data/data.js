@@ -8,7 +8,7 @@ import image3 from "../assets/sleep.png";
 import Birds from "../assets/Birds.svg"
 import Rain from "../assets/Rain.svg"
 import Wind from "../assets/Wind.svg"
-import Synthwave from "../assets/SynthWave.svg"
+import Synthwave from "../assets/Synthwave.svg"
 import Ocean from "../assets/Ocean.svg"
 import AutumnForest from "../assets/Autumn-forest.svg"
 import WaterDripping from "../assets/Water-dripping.svg"
