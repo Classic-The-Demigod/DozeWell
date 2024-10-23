@@ -1,4 +1,4 @@
-import ImageSlider from "./imageSlider";
+import ImageSlider from "./ImageSlider";
 
 const Hero = () => {
   return (
