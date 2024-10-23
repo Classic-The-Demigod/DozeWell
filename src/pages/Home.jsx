@@ -1,5 +1,5 @@
 import Header from "../components/Header";
-import bgHero from "../assets/bg-hero.png"
+
 import Hero from "../components/Hero";
 import DisocverySection from "../components/DisocverySection";
 import Comments from "../components/Comments";

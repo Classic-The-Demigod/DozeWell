@@ -1,4 +1,6 @@
-import { NavLink, useNavigate } from "react-router-dom";
+import { NavLink, useNavigate, Link } from "react-router-dom";
+
+
 
 import MenuIcon from "../assets/menu_icon.png";
 import CloseIcon from "../assets/cross_icon.png";
@@ -6,7 +8,7 @@ import { useState } from "react";
 
 const Header = () => {
   const [visible, setVisible] = useState(false);
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   return (
     <section className="container mx-auto pt-5 px-3 sm:px-10">
@@ -22,8 +24,15 @@ const Header = () => {
         </ul>
 
         <div className="hidden sm:flex items-center gap-3">
+          {" "}
           <NavLink className="text-white">Login</NavLink>
-          <button className="text-purple-dozewell border border-purple-dozewell px-8 rounded-3xl py-2" onClick={()=> navigate("/soundplayer")}>
+          <Link to="/userAuth" className="text-white">
+            Login
+          </Link>
+          <button
+            className="text-purple-dozewell border border-purple-dozewell px-8 rounded-3xl py-2"
+            onClick={() => navigate("/soundplayer")}
+          >
             Try for free
           </button>
         </div>
